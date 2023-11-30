@@ -8,7 +8,7 @@ function App() {
   return (
     <div className=' w-full h-screen duration-300 '
     style={{backgroundColor: color}}
-    > <p className='flex justify-center font-bold text-5xl '>Background Color Changer</p>
+    > <p className='flex justify-center font-bold text-5xl '>Background-Color-Changer</p>
     <div className='fixed flex justify-center bottom-12 inset-x-0 '>
       <div className='flex gap-4 '>
         <button onClick={()=> setColor("red")} className='border-solid border-2 border-black px-3 bg-red-800 text-white rounded-3xl'>Red</button>
